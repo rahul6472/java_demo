@@ -33,7 +33,6 @@ public class Height_Depth_BinaryTree {
         root.right.left=new Node(30);
         root.right.right=new Node(35);
         System.out.println("Depth::"+findDepth(root,45));
-
         System.out.println("Height of tree"+findHeight(root));
 
 
